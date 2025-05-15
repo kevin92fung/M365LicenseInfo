@@ -97,8 +97,8 @@ $TenantLicenseCount = foreach ($License in $GetAllLicenses) {
 # Where-Object { $_.City -eq "Stockholm" }                      # Filter by city
 # Where-Object { $_.DisplayName -like "*Admin*" }               # Display name contains 'Admin'
 
-$report = Get-MgUser -All | # Uncomment and modify the Where-Object line below to apply a filter
-#Where-Object { $_.AssignedLicenses.SkuId -eq "Support" } |
+$report = Get-MgUser -All | # Update Where-Object condition to use filter
+Where-Object { $_.AssignedLicenses.City -ne "test" } |
 Select-Object @{
 
     Name = 'Name'
