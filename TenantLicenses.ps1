@@ -67,6 +67,7 @@ $excludedSkuIds = @(
     "e0dfc8b9-9531-4ec8-94b4-9fec23b05fc8",     # Microsoft Teams Exploratory Dept
     "a403ebcc-fae0-4ca2-8c8c-7a907fd6c235",     # Microsoft Fabric (Free)
     "3f9f06f5-3c31-472c-985f-62d9c10ec167",     # Power Pages vTrial for Makers
+    "606b54a9-78d8-4298-ad8b-df6ef4481c80",     # Microsoft Copilot Studio Viral Trial
     "8c4ce438-32a7-4ac5-91a6-e22ae08d9c8b"      # Rights Management Adhoc
 )
 
